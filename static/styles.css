@@ -1,0 +1,15 @@
+:root{
+    --background-color: #d7fff1ff;
+    --primary-color: #aafcb8ff;
+    --secondary-color: #8cd790ff;
+    /* --background-color: #c9e4caff;
+    --secondary-color: #731963ff;
+    --primary-color: #ce6d8bff; */
+    --text-color: rgb(30, 21, 116);
+}
+
+body{
+    background-color:var(--background-color);
+    color: var(--text-color);
+    font-family: 'Montserrat', sans-serif;
+}
