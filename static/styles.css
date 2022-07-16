@@ -1,5 +1,5 @@
 :root{
-    --background-color: #d7fff1ff;
+    --background-color: #F8F9FA;
     --primary-color: #aafcb8ff;
     --secondary-color: #8cd790ff;
     /* --background-color: #c9e4caff;
@@ -12,4 +12,36 @@ body{
     background-color:var(--background-color);
     color: var(--text-color);
     font-family: 'Montserrat', sans-serif;
+}
+
+.subnav {
+    align-items: center;
+}
+
+.navbar-brand {
+    font-family: 'Sacramento';
+    font-size: 60px;
+}
+
+.card-img,
+.card-img-top,
+.card-img-bottom {
+  width: 100%;
+}
+
+.card-img,
+.card-img-top {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.card-img,
+.card-img-bottom {
+  border-bottom-right-radius: calc(0.25rem - 1px);
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
 }
